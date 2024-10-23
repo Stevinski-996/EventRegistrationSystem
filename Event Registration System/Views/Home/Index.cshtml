@@ -1,0 +1,31 @@
+﻿@{
+    ViewData["Title"] = "Home";
+}
+
+<div class="container text-center mt-5">
+    <h1 class="display-4">Hello and Welcome</h1>
+    <p class="lead">Efficiently register and manage events using our easy-to-use system.</p>
+
+    <div class="mt-4">
+        <h3>Key Features</h3>
+        <ul class="list-unstyled">
+            <li><i class="bi bi-person-fill"></i> <strong>Manage Participants:</strong> Seamlessly add and manage participant information.</li>
+            <li><i class="bi bi-calendar-event"></i> <strong>Browse Events:</strong> Explore a variety of events to register for.</li>
+            <li><i class="bi bi-envelope-fill"></i> <strong>Email Alerts:</strong> Get updates and confirmations right in your inbox.</li>
+            <li><i class="bi bi-graph-up-arrow"></i> <strong>Analytics & Insights:</strong> Monitor registrations and participant metrics easily.</li>
+        </ul>
+    </div>
+
+    <div class="mt-4">
+        <h3>Start Now</h3>
+        <p>Get started quickly by choosing one of the following options:</p>
+        <ul class="list-inline">
+            <li class="list-inline-item"><a href="@Url.Action("Index", "Events")" class="btn btn-primary btn-lg">Browse Events</a></li>
+            <li class="list-inline-item"><a href="@Url.Action("Create", "Registrations")" class="btn btn-success btn-lg">Register New Participant</a></li>
+        </ul>
+    </div>
+
+    <div class="mt-5">
+        <p>Find out more about <a href="https://docs.microsoft.com/aspnet/core" class="btn btn-info">building Web apps with ASP.NET Core</a>.</p>
+    </div>
+</div>
