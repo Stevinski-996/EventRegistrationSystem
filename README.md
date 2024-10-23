@@ -1,10 +1,10 @@
 # Event Registration System
 
-## Outcome
+## Overview
 
 The **Event Registration System** is a web application designed to facilitate event management and participant registration. Users can create events, and participants can register for these events easily. The application leverages ASP.NET Core MVC and Entity Framework Core to provide a robust and user-friendly experience.
 
-## Key Features
+## Features
 
 - **Event Management**: Create, update, and delete events with essential details such as title, date, description, and capacity.
 - **Participant Registration**: Users can register for events by providing their name and email.
